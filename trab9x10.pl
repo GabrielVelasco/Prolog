@@ -4,6 +4,10 @@
 % logo para um tour a quantidade de casas pretas e brancas tem que ser igual
 % ou seja, quantidade total de casa do tabuleiro de que ser PAR.
 
+verf([_|T]) :- T = [], !.
+verf([H1, H2|T]) :-
+    knightJump(H1, H2), verf([H2|T]), !.
+
 memb(_, []) :- !, fail.
 memb(D, [H|T]) :-
 	D = H, !;
