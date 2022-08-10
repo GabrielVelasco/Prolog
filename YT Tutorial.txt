@@ -1,0 +1,5 @@
+Tutos:
+https://www.youtube.com/channel/UCFFeNyzCEQDS4KCecugmotg (Power of Prolog)
+https://github.com/VanHakobyan/SWI-Prolog
+https://youtu.be/SykxWpFwMGs
+https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/
